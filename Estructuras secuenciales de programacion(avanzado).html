@@ -1,0 +1,88 @@
+<html>
+<head>
+</head>
+<!--comando "bgcolor" definice color de fondo-->
+<body bgcolor=00ff00>
+    <!--comando "Align" nos permite disponer de la distribucion dek texto-->
+    <div align="center">
+        <h1>Estructura Secuencial</h1>        
+        <p>Cuando en un programa solo participan operaciones, entrada y salida se le denomina estructura secuencial.</p><br>    
+    </div>
+    <!--funciones "width" especifica el ancho en %,
+    "size" especifica grueso de line en px, "color" especifica su color-->
+    <hr width=70% , size="2px", color="ff000">
+    <!--comando "b" funcion negrita-->
+    <div align="center">
+        <p>Ejemplo de Algoritmo con <b>estructura secuencial</b>:</p>
+        <p>Realiza la carga de dos numeros por teclado e imprimir su suma, producto, resta, y division en ellos.</p><br>
+    </div>
+    <div align="center">
+        <script>
+            //Variables
+            var valor1;
+            var valor2;
+            //Funciones            
+            valor1=prompt("Ingrese primer numero","");
+            valor2=prompt("Ingrese segundo numero","");
+            /*la funcion "prompt" permite entrada de datos por teclado, aparecera una ventada donde cargamos el valor; contiene dos parametros: uno es el mensaje y otro el valor incicial a mostar*/
+            //Variables
+            var suma=parseInt(valor1)+parseInt(valor2);
+            var producto=parseInt(valor1)*parseInt(valor2);
+            var division=parseInt(valor1)/parseInt(valor2);
+            var resta=parseInt(valor1)-parseInt(valor2);
+            /*la funcion "prompt" tiene dos parametros :uno es el mensaje y otro el valor incicial a mostar*/
+            /*var mayormenor=true
+            if {parseInt(valor1) <parseInt(valor2)}
+            document.write(" es mayor valor 2 ")};
+            else {parseInt(valor1)>parseInt(valor2);
+            document.write(" es menor valor 1 ")};*/
+            //Valores            
+            document.write("Valor 1 = ");
+            document.write(valor1);
+            document.write("<br>");
+            document.write("Valor 2 = ");
+            document.write(valor2);
+            document.write("<br>");                       
+            //Suma
+            document.write("La suma de ") ;
+            document.write(valor1);
+            document.write(" mas ");
+            document.write(valor2);
+            document.write(" es: ");
+            document.write(suma);
+            document.write("<br>");
+            //Producto
+            document.write("El producto de la multiplicacion entre "),
+            document.write(valor1);
+            document.write(" por ");
+            document.write(valor2);
+            document.write(" es: ");
+            document.write(producto);
+            document.write("<br>");
+            //Resta
+            document.write("El resultado de la resta entre ");
+            document.write(valor1);
+            document.write(" por ");
+            document.write(valor2);
+            document.write(" es: ");
+            document.write(resta);
+            document.write("<br>");
+            //Division
+            document.write("El producto de la division entre "),
+            document.write(valor1);
+            document.write(" entre ");
+            document.write(valor2);
+            document.write(" es: ");
+            document.write(division);
+            document.write("<br>");
+            //Mayor o Menor
+            /*document.write("Es ");
+            document.write(mayormenor);*/
+        </script>        
+    </div><br>
+    <div align="center">
+        <!--comando "i" prsenta el texto encerrado de manera italicas-->
+        <p>Este problema es <b><i>secuencial</i></b> ya que ingresamos dos valores por teclado, luego hacemos 4 operaciones y por ultimo mostramos los resultados.</p>
+    </div>
+</body>
+</html>

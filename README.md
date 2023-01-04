@@ -42,6 +42,12 @@ TIPOS DE VARIABLES:
 
 "console.log();" -Este método muy simple nos permitirá imprimir en la consola todo lo que pongamos entre paréntesis.
 
+console.log("mi nombre es Juan Ramírez");
+console.log("tengo 35 años");
+mi nombre es Juan Ramírez
+tengo 35 años 
+undefined
+
 EJEMPLOS DE DECLARACION DE ESTAS VARIABLES:
 
 var nombre = 'Juan'; // Vamos a usar principalemente esta forma
@@ -67,5 +73,13 @@ var age
 age **undefined(no hay nada guardado dentro)
 var age = null;(nada)
 
-FUNCIONES EN VARIABLES:
+**FUNCIONES
+
+Agrupan codigo que despues invocar, asi nos ahorramos en escribir codigo.
+Por lo que tienen las mismas propiedades que cualquier objeto.
+Con las funciones podemos hacer algo con nuestras variables.
+
+
+
+**<promtp></promtp> -Permite asignar una casilla de texto.
 
