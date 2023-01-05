@@ -1,34 +1,92 @@
 <html>
-    <head>
-        <title>Variables</title>
-    </head>
-    <body>
-        <h1>VARIABLES</h1>
-        <p>Una variable es un deposito donde hay un valor. Consta de un nombre y pertenece a un tipo.</p>
-        <h1>Tipos de variables:</h1>        
-        <ul>
-            <li type="circle">Variables logicas o booleanas (boolean).</li>
-            <li type="circle">Variables enteras (integer).</li>
-            <li type="circle">Variables Decimales (float).</li>
-            <li type="circle">Variables de cadenas (string).</li>
-            <li type="circle">Variables Matrices (arrays).</li>
-            <li type="circle">Variables objetos (object).</li>
-            <li type="circle">Variables recursos (resource).</li>
-            <li type="circle">Variables nulo (null)</li>
-        </ul>
-               
-        <script type="text/javascript">
-            var nombre=("Juan Ramirez");
-            var edad=(32);
-            var altura=(1.87);
-            var casado=true;
-            document.write(nombre);
-            document.write("<br>");
-            document.write(edad);
-            document.write("<br>");
-            document.write(altura);
-            document.write("<br>");
-            document.write(casado);    
-        </script>   
-    </body>
-</html>
+  <head>
+    <title>Variables</title>
+  </head>
+  <body background="/imagen/bcgvariables.jpg">
+    <article>
+      <h1>VARIABLES</h1>
+      <p>Una variable es un deposito donde hay un valor.<br>Consta de un nombre y pertenece a un tipo.</p>      
+      <p>Las variables son nombres que ponemos a los lugares donde almacenamos la información.<br> En JavaScript deben comenzar por una letra o un subrrayado (_),puede haber además digitos <br>entre los demas caracteres.<br>Una variable no puede tener el mismo nombre de una palabra clave del lenguaje.</p>      
+    </article>
+    <article>
+      <article>
+        <h2>Tipos de variables:</h2>        
+          <ol>
+            <li type="1">Variables logicas o booleanas (boolean).</li>
+            <li type="1">Variables enteras (integer).</li>
+            <li type="1">Variables Decimales (float).</li>
+            <li type="1">Variables de cadenas (string).</li>
+            <li type="1">Variables Matrices (arrays).</li>
+            <li type="1">Variables objetos (object).</li>
+            <li type="1">Variables recursos (resource).</li>
+            <li type="1">Variables nulo (null)</li>
+          </ol>
+      </article>
+      <img width="50%" src="/imagen/variable.jpg" alt="descripcion de un variable"/>
+      <article>
+          <h2>Una variable puede almacenar:</h2>        
+          <ul>
+            <li type="disc">Valores enteros(100,200,etc.)</li>
+            <li type="disc">Variables reales(1.24,2.90,etc.)</li>
+            <li type="disc">Variables cadenas de caracteres("Juan","Compras","Listado",etc.)</li>
+            <li type="disc">Variables logicos(true,false)</li>
+            <li type="disc">Existen otros tipos de variables que vermeos mas adelante.</li>
+          </ul>
+      </article>
+    </article>
+    <article>
+      <h2>Sintaxis:</h2>    
+      <p>Una variable se define anteponiendole la palabra clave <b>"var"</b>:</p>
+      <p><b>var</b> dia;</p>
+      <p>Se pueden declara varias variables en una misma linea:</p>
+      <p><b>var</b> dia, mes, anio;</p>
+      <p>A una variables se le puede definir e inmediatamente inicializarla con un valor:</p>
+      <p><b>var</b> edad=20;</p>
+      <p>o en su defecto en dos pasos:</p>
+      <p><b>var</b> edad;</p>
+      <p>edad=20;</p>
+      <br>
+      <p>Para la elección de los nombres de una variable debemos elegir nombres representativos.</p>
+      <p>En el ejemplo anterior los nombres de las variables dia, mes y anio son lo suficientemente claros para darnos <br>una idea acabada sobre su contenido, una mala elección de nombres hubiera sido llamada a, b y c.</p>
+    </article>
+    <article>
+      <h2>Impresión de variables en una pagina HTML</h2>
+      <p>Para mostrar el contenido de una variable en una pagina utilizamos el objeto "document" y llamamos a la función "write".</p>
+      <p>En el siguiente ejemplo definimos una serie de variables y las mostramos en la pagina.</p>      
+      <p>Cuando imprimimos una variable, no la debemos disponer en simples comillas (en caso de hacer esto, aparecera el nombre de la variable y no su contenido).</p>
+      <p>La variables de cadenas de caracteres (string) deben de ir encerradas en comillas ("texto ejemplo").</p>
+      <p>Los valores de la svariables enteras (en este caso la variable edad) y reales no deben ir ncerradas entre comillas.</p>
+      <p>Cada instrucción fnaliza con punto y como ";".</p>
+      <p>Las variables de tipo boolean puenden almacenar solo dos valores: true o false.</p>
+      <p>El resultado al visualizar la pagina debe ser 4 lineas similares a estas:</p>
+    </article>
+    <article>
+      <h2>Ejemplo tipos de variables JavaScript:</h2> 
+      <script type="text/javascript">
+        var nombre=("Juan Ramirez");
+        var edad=(32);
+        var altura=(1.87);
+        var casado=true;
+        document.write(nombre);
+        document.write("<br>");
+        document.write(edad);
+        document.write("<br>");
+        document.write(altura);
+        document.write("<br>");
+        document.write(casado);    
+      </script>
+    
+    </article>
+    <h2> Entretenimiento</h2>
+    <ul>
+      <li type="circle"> 
+        <!--Comando "a" permite colocar -->      
+        <a href="https://www.youtube.com/watch?v=66GAqh9B8ac">Lo que escucho mientras programo.</a>
+      </li>
+        <br>   
+      <li type="circle">
+        <a href="https://www.tercerfiat.com/inicio">Donde disfruto de leer.</a>
+      </li>
+    </ul><br>  
+  </body>
+</html>-
