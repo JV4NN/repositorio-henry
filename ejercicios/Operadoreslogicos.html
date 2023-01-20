@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operador Logico ||   (o)</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Operador Logico ||   (o)</h1>
+    </div>
+    <article align="center">
+        <p>Traducido se lee como "O".<br>Si la condicion 1 es verdadera o la condicion 2 es verdadera, luego ejecutar la rama del verdadero.<br>Cuando vinculamos dos o mas condiciones con el operador "O", <br>con lo que una de las dos condiciones sea verdadera alcanza para que el resultado de la condicion compuesta sea verdadero.
+        </p>
+        <br>
+        <p>Ejemplo:<br>Se carga una fecha (dia, mes, año) por teclado.<br> Mostrar  un mensaje si corresponde al primer trimestre del año (enero, febrero, marzo).<br>Carga por teclado el valor numerico del dia, mes, y año por separado.</p>
+        <br>
+        <div align="center">
+            <img width="450px" src="/imagen/||(o).jpg" alt="Ejemplo forma de utilizar operar || (o)" />
+        </div>
+        <br>
+        <div>
+            <script>
+
+                let dia, mes, año;
+                dia=prompt ("Ingrese día: ","");
+                mes=prompt ("Ingrese mes: ","");
+                año=prompt ("Ingrese año: ","");
+                dia=parseInt(dia);
+                mes=parseInt(mes);
+                año=parseInt(año);
+                if(mes == 1 || mes == 2 || mes == 3){
+                    document.write("Corresponde al primer trimestre del año.");
+                }
+
+            </script>
+        </div>
+        <br>
+        <hr width="50%" color="red" size="3.5">
+        <br>
+        <p>La carga de una fecha se hace por partes, ingresamos las variables  dia, mes y año.</p>
+    </article>
+</body>
+</html>
