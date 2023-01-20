@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuras Condicionales Compuestas</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Estructuras Condicionales Compuestas</h1>
+    </div>
+    <article>
+        <p>Cuando se presenta la eleccion tenemos la opción de realizar una actividad u otra. Es decir  tenemos actividades por el verdadero  y el por el falso de la condición.<br> Lo importante por tener en cuenta es que se realizan las actividades de la rama del verdadero o las del falso, nunca se realizan las actividades de las dos ramas.<br> En una estructura condicional compuesta tenemos entradas salidas operaciones tanto por la rama del verdadero como por la rama del falso.<br>Ejemplo: Realizar un programa que lea dos numeros distintos y muestre el mayor de ellos:</p>
+    </article>
+    <div align="center">
+        <img width="80%" src="/imagen/EstConCom.jpg" alt="codigo JavaScript escrito"/>
+    
+    <div>
+        <script type="text/javascript">
+           
+            /*La funcion prompt retorna un string  por lo que debemos convertirlo a entero cuando queremos saber cual de los dos valores es mayor numericamente.
+            En el lenguaje javaScript una variable puede ir cambiando el tipo de dato que almacena a lo largo de la ejecucion del problema.
+            Mas adelante veremos que sucede cuando preguntamos cuál de las dos strin es mayor.
+            Estamos en presencia de una ESTRUCTURA CONDICIONAL COMPUESTA ya que tenemos actividades por la rama del verdadero  y del falso.
+            La estructura condicional compuesta tiene la siguiente codificación:*/
+            /* Codificación:
+
+            if(<condición>){
+                <Instruccion(es)>
+            } else {
+                <Instruccion(es)>
+            }            
+
+            */
+           /*Es igual a la estructura condicional simple salvo que aparece la palabra clave "else" y posteriormente un bloque {} con una o varias instruciones.
+           Si la condicion del if es verdadera se ejecluta el bloque que aparece despues de la condicion. en caso que la condicion resulte falsa se ejecuta la instruccion o bloque de indsrucciones que indicamos despues del "else".
+            */
+            // Declaración de variables.
+            let num1, num2;
+            num1=prompt("Ingrese el primer numero: ","");
+            num2=prompt("Ingrese el segundo numero: ","");
+            num1=parseInt(num1);
+            num2=parseInt(num2);
+
+
+            if(num1>num2){
+                document.write("el mayor es "+ num1 +" valor 1.");
+            } else {
+                document.write("el mayor es "+ num2 +" valor 2.");
+            }
+
+        </script>
+    </div>
+    </div>
+    
+
+
+    
+</body>
+</html>

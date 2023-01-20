@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Estructuras condicionales simples</title>
+		<script type="text/javascript">
+			// Se declaran las variables.	
+			let nombre;
+			let nota;
+			// Se ingresa texto por medio del teclado con la propiedad "prompt"
+			nombre = prompt("ingrese nombre: ","");
+			nota = prompt("Ingrese su nota: ","");
+			//
+			if (nota >= 4){
+				document.write ( nombre+ " haz aprobado con un "+ nota );
+			}
+			/*function promedio (nota) {
+				if (nota >= 4){
+					document.write ( nombre + ", haz aprobado con un " + nota );
+				} else {
+					document.write ( nombre + ", haz fallado.Suerte para la proxima.");
+				}
+			}
+			*/
+		</script>
+	</head>
+	<body bgcolor="#23BAC4">
+		<div align="center">
+		<br>
+		<div>
+			<script type="text/javascript"></script>
+		</div>
+		<br>
+		<hr width="70%" color="yellow" size="3.5px" >  
+		<br>
+			<h1>Estructuras Condicionales Simples</h1>
+			<br>
+			<div>				
+				<img src="/imagen/condicionadassimples.jpg" />
+			</div>
+			<br>
+			<article align="center">
+				<P>No todos los problemas pueden resolverse empleando estructuras secuenciales.<br>Cuando hay que tomar una decisión aparecen las estructuras condicionales</P>
+				<br>				
+				<p>En nuestra vida se nos presentan situasiones donde debemos decidir.<br><br><em> "Cierto o Falso..."</em></p>
+				<br>
+				<div >
+					<p><em>¿Elijo la carrera A o la carrera B? <br> ¿Me pongo este pantalón? <br> ¿Entro a sitio A o sitio B? <br> Para ir al trabajo,¿elijo el camino A o el camino B? <br> Al cursar la carrera, ¿elijo el turno mañana, tarde o noche?</em></p>
+				</div>
+				<br>
+				<p>Por supuesto que en un problema se combinan estructuras secuenciales y condicionales.<br>Cuando se presenta la eleccion tenemos la opción de realizar una actividad o no realizarla.<br><b>Es una estructura CONDICIONAL SIMPLE cuando por el camino del verdadero hay actividades y por el camino del falso no hay actividades.</b> <br>Por el camino del verdadero pueden existir varias operaciones, entradas y salidas,<br>inclusive ya veremos que puede haber otras estructuras condicionales.<br><br>Ejemplo: Realizar la carga de una nota de un alumno.<br> Mostrar un mensaje que aprobo si tiene una nota mayor o igual a 4: </p>
+			</article>	
+			<article>
+				<div>
+					<h2>if (...){...}</h2>
+					<p>Aparece la instruccion <i><b>if</b></i> en el lenguje JavaScript.<br> La condición se verifica verdadera se ejecuta todas las instrucciones que se encuentran encerradas entre las llavez de apertura y cerrado seguidas al <i><b>if</b></i></p>
+					<br>
+					<p>Para disponer condiciones en un <i><b>if</b></i> podemos utilizar algunos de los siguientes operadores relacionales.</p>
+					<br>
+					<div align="left">
+						<ul>
+							<li> < mayor</li>
+							<li> >= mayor o igual</li>
+							<li> - menor</li>
+							<li> <= menor o igual</li>
+							<li> != distinto</li>
+							<li> == igual</li>
+						</ul>
+					</div>
+				</div>
+				<br>
+				<div>
+					<p>Siempre debemos tener en cuenta  que en la condición  del <i><b>if</b></i> deben de intervenir una variable un operador relacional y otra variable o valor fijo.</p>
+					<br>
+					<p>Otra cosa que hemos incorporado es el operador "+" para cadenas de caracteres</p>
+					<p>Con esto hacemos mas corto la cantidad de linea de nuestro progama, recordemos que veniamos haciendolo de la siguiente forma:</p>
+				</div>
+			</article>
+		</div>
+		<br>
+	</body>
+</html>
